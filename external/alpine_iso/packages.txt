@@ -1223,7 +1223,6 @@ nghttp2-libs
 nghttp2-static
 nginx
 nginx-doc
-nginx-mod-devel-kit
 nginx-mod-http-accounting
 nginx-mod-http-array-var
 nginx-mod-http-auth-jwt
@@ -1786,8 +1785,6 @@ shadow-conv
 shadow-dev
 shadow-doc
 shadow-libs
-shadow-login
-shadow-login-doc
 shadow-subids
 shared-mime-info
 shared-mime-info-doc
@@ -1873,11 +1870,8 @@ tiff
 tiff-dev
 tiff-doc
 tiff-tools
-timew
 timewarrior
 timewarrior-doc
-timew-bash-completion
-timew-doc
 tini-static
 tinyxml2
 tinyxml2-dev
