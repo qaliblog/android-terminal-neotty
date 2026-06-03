@@ -1,5 +1,5 @@
 PACKAGE_VERSION="1.3.1"
-PACKAGE_SRCURL="https://www.zlib.net/zlib-$PACKAGE_VERSION.tar.xz"
+PACKAGE_SRCURL="https://github.com/madler/zlib/releases/download/v$PACKAGE_VERSION/zlib-$PACKAGE_VERSION.tar.xz"
 PACKAGE_SHA256="38ef96b8dfe510d42707d9c781877914792541133e1870841463bfa73f883e32"
 
 builder_step_configure() {
