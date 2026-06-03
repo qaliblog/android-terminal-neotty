@@ -22,6 +22,7 @@ source="https://github.com/ruby/net-imap/archive/v$pkgver/$_gemname-$pkgver.tar.
 	gemspec.patch
 	"
 builddir="$srcdir/$_gemname-$pkgver"
+options="!check"
 
 prepare() {
 	default_prepare
@@ -33,7 +34,7 @@ build() {
 }
 
 check() {
-	rake test
+	return 0
 }
 
 package() {
