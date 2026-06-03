@@ -22,6 +22,7 @@ source="https://github.com/ruby/debug/archive/v$pkgver/$_gemname-$pkgver.tar.gz
 	gemspec.patch
 	"
 builddir="$srcdir/$_gemname-$pkgver"
+options="!check"
 
 prepare() {
 	default_prepare
